@@ -1,14 +1,19 @@
-import Button from './components/button/Button';
+import CardBox from './components/CardBox/CardBox';
+import ResultBox from './components/ResultBox/ResultBox';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
 	return (
-		<div>
+		<Container>
 			<GlobalStyles />
-			<h1>Curso de React</h1>
-			<Button color='steelblue'>Click Me!</Button>
-			<Button color='#f0f'>Click Me!</Button>
-		</div>
+			<CardBox>
+				<ResultBox/>
+				<SummaryBox>
+							<TitleSummary/>
+						
+				</SummaryBox>
+			</CardBox>
+		</Container>
 	);
 };
 
