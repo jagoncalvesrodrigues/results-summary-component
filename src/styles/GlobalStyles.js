@@ -24,4 +24,7 @@ export const GlobalStyles = createGlobalStyle`
         color: inherit;
     }
 
+    body{
+        font-family: "Hanken Grotesk", sans-serif;
+    }
 `;
